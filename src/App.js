@@ -3,7 +3,6 @@ import "./App.css";
 import React from "react";
 import Header from "./components/Header/Header";
 import personal from "./assets/avatarTwo.png";
-// import personal from "./assets/Goavatar.jpg";
 import Body from "./components/Body/Body";
 function App() {
   const HeaderData = {
@@ -13,7 +12,7 @@ function App() {
       "Junior Software Engineer; Doing SRE, Loves anything that scales; SREboy.com",
     contacts: {
       mail: "ziadmansour.4.9.2000@gmail.com",
-      phone: 16698997110,
+      phone: 6698997110,
       accomodation: "Luxor || Cairo || San José, CA",
       linkedin: "linkedin.com/in/ziad-mansour/",
       github: "github.com/ZiadMansourM/",
