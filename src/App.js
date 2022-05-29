@@ -12,7 +12,7 @@ function App() {
       "Junior Software Engineer; Doing SRE, Loves anything that scales; SREboy.com",
     contacts: {
       mail: "ziadmansour.4.9.2000@gmail.com",
-      phone: 6698997110,
+      phone: 1021799950,
       accomodation: "Luxor || Cairo || San José, CA",
       linkedin: "linkedin.com/in/ziad-mansour/",
       github: "github.com/ZiadMansourM/",
@@ -27,7 +27,7 @@ function App() {
         city: "Luxor, Egypt",
         action: "Achievements/Tasks",
         actions: {
-          1: " Team Leader, Responsible for the deployment and enviroment configurations",
+          1: " Team Leader, Responsible for the deployment and environment configurations",
           2: " Designed and Implemented the Backend, Support for Multiple types of users",
           3: " Designed and Implemented the Backend of the Website Blog",
           4: " Making sure every component is extendable, reusable",
