@@ -6,7 +6,7 @@ function Refrences(props) {
   const Refrences = Object.keys(props.data);
   return (
     <div className={classes1.section}>
-      <h2 className={classes1["section-title"]}>Refrences</h2>
+      <h2 className={classes1["section-title"]}>References</h2>
       <div className={classes1["section-body"]}>
         {Refrences.map((vol) => (
           <React.Fragment key={vol}>

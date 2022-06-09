@@ -27,23 +27,23 @@ function App() {
         city: "Luxor, Egypt",
         action: "Achievements/Tasks",
         actions: {
-          1: " Team Leader, Responsible for the deployment and environment configurations",
-          2: " Designed and Implemented the Backend, Support for Multiple types of users",
-          3: " Designed and Implemented the Backend of the Website Blog",
-          4: " Making sure every component is extendable, reusable",
+          1: " Team Leader, responsible for the deployment and environment configuration.",
+          2: " Designed and implemented the backend, which supported multiple types of users.",
+          3: " Designed and implemented the backend of the blog part of the website.",
+          4: " I ensured every component was extendable and reusable.",
         },
       },
       2: {
         experience: "Junior DevOps",
-        company: "Software Engineering - CMPN203",
+        company: "Software Engineering Course - CMPN203",
         date: "02/2021 - 06/2021",
         city: "Giza, Egypt",
         action: "Tasks",
         actions: {
-          1: "Worked as a DevOps for a whole semester. Team consisted of 21 students.",
-          2: "Made sure to explain, and apply DevOps methedologies.",
-          3: "Implemented CICD from day one. Helped in managing different environments.",
-          4: "Automated Monitoring, Rollback and Scripts to spin / configure a new server.",
+          1: "Worked as a DevOps for a whole semester in a team of 21 students.",
+          2: "I ensured everyone understood and applied the values, principles, and methodologies of agile development.",
+          3: "Implemented CI/CD pipelines from day one. Also, helped in managing different environments.",
+          4: "Automated monitoring, rollback and scripts to spin and configure a new server.",
           5: "Load balancing and Docker containers.",
         },
       }
@@ -52,23 +52,23 @@ function App() {
       1: {
         name: "SREboy.com/settings/ (May/2022)",
         tasks: {
-          1: "Designed, Implemented and Maintaining the smart_settings package.",
-          2: "Helps to manage python programs settings easily, Ability to modify at runTime.",
-          3: "Technologies used: Python, mkdocs, Github Actions, Typer, Rich.",
+          1: " Designed, implemented and now maintains the smart_settings package.",
+          2: " Little wrapper around settings files. Helps to manage your python programs' settings easily in a pythonic way.",
+          3: " Technologies used: Python, MkDocs, GitHub Actions, Typer, Rich.",
         },
       },
       2: {
         name: "SREboy.com/Bastet/ (Jan/2022)",
         tasks: {
-          1: "Designed, Implemented and Maintaining the Bastet package.",
-          2: "Helps to manage FastAPI programs easily, supports reusability and extensibility.",
-          3: "Technologies used: Python, FastAPI, mkdocs, Github Actions, Typer, Rich.",
+          1: "Designed, implemented and now maintains the Bastet package.",
+          2: "A high-level Python package encourages rapid development and clean, pragmatic design for FastAPI apps.",
+          3: "Technologies used: Python, FastAPI, MkDocs, GitHub Actions, Typer, Rich.",
         },
       },
       3: {
         name: "Parallelism in Python and Go (April/2022)",
         tasks: {
-          1: "In-Depth analysis of Parallelism techniques in Python and Go.",
+          1: "In-Depth analysis of parallelism techniques in Python and Go.",
           2: "github.com/ZiadMansourM/concurrency-parallelism",
           3: "Also more information at SREboy.com/talks",
         },
@@ -90,26 +90,26 @@ function App() {
     },
     achievements: {
       1: {
-        title: "Two Scholarships from USAID estimated to worth more than $160,000",
+        title: "Two Scholarships from USAID are estimated to be worth more than $160k",
         description:
-          "Received two full scholarships from the US agency for international developement. HEI and Access.",
+          "Received two full scholarships from the US agency for international development. HEI and Access.",
       },
       2: {
         title:
           "Higher Education Initiative Scholarship – HEI",
         description:
-          "Full bachelor degree scholarship funded by USAID and managed under the supervision of Amideast Egypt. Acceptance rate was 1.6% as only 120 students were selected from 7500.",
+          "Full bachelor's degree scholarship funded by USAID and managed under the supervision of Amideast Egypt. The acceptance rate was 1.6%, as only 120 students were selected from 7500.",
       },
       3: {
         title:
           "(2x) Awesome Student of The Cohort – HEI",
           description:
-          "Proud that I was able to get it two times. Only Seven students are selected each semester.",
+          "Proud that I was able to get it two times. Only seven students are selected each semester.",
       },
       4: {
         title: "English Access Micro-Scholarship, AMIDEAST",
         description:
-        "Full scholarship funded by USAID and managed under the supervision of Amideast Egypt. Acceptance rate was 20%. Two-year program consists of 9 hours/week over 3 sessions. Plus, some character building, American culture and computer skills.",
+        "Full scholarship funded by USAID and managed under the supervision of Amideast Egypt. The acceptance rate was 20%. The two-year program consisted of 9 hours/week over three sessions. Plus, some character building, American culture and computer skills.",
       }
     },
     education: {
@@ -117,30 +117,30 @@ function App() {
         title:
           "(Semester Abroad) Computer Engineering at San José State University (Jan 2022 -> June 2022)",
         description:
-          "GPA: 3.325 - Fully Funded by USAID",
+          "GPA: 3.325 - Fully Funded by USAID.",
       },
       2: {
         title:
           "(BE) Computer Engineering from Cairo University (Aug 2018 -> May 2023)",
         description:
-          "GPA: 3.27 - Fully Funded by USAID",
+          "GPA: 3.27 - Fully Funded by USAID.",
       },
     },
     volunteering: {
       1: {
-        title: "EducationUSA Ambassdor | EducationUSA, U.S. Embassy Cairo",
+        title: "EducationUSA Ambassador | EducationUSA, U.S. Embassy Cairo",
         description:
-          "EducationUSA is the department's official source of information on U.S. higher education. Promotes the value of U.S. higher education to students, families, institutions, and governments abroad in an increasingly competitive global environment. I monitor international Bachelor, Master and PhD students. Throughout the whole admission and application process. And, on how to finance their studies.",
+          "EducationUSA is the department's official source of information on U.S. higher education. Promotes the value of U.S. higher education to students, families, institutions, and governments abroad in an increasingly competitive global environment. I monitor international Bachelor's, Master and Ph.D. students. Throughout the whole admission and application process. And on how to finance their studies.",
       },
       2: {
         title: "Founder of The Egyptian Science Arsenal - ESA",
         description:
-          "Online platform that aims to be as an information, experience and ideas sharing club. Active community of 1.4k students from 14 to 24 years old",
+          "An online platform that aims to be an information, experience and ideas sharing club. An active community of 1.4k students from 14 to 24 years old.",
       },
       3: {
         title: "Instructor at The Egyptian Red Crescent - ERC",
         description:
-          "In times of peace The Egyptian Red Crescent is responisble for the development of local communities. I used to give lectures to students from 14 to 24 years old mainly in Education advising.",
+          "In times of peace, The Egyptian Red Crescent is responsible for developing local communities. In summer, I give lectures to students from 14 to 24 years old, mainly in Education advising.",
       },
     },
     Refrences: {
@@ -150,7 +150,7 @@ function App() {
           "LinkedIn: @aliabdellatifhussein, Email: alielseddeek@gmail.com",
       },
       2: {
-        title: "Ms. Yasmine Elroweiny - EducationUSA Senior Adviser",
+        title: "Ms. Yasmine Elroweiny - EducationUSA Senior Advisor",
         description:
           "LinkedIn: @yelroweiny, Email: yelroweiny@amideast.org",
       },
