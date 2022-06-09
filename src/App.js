@@ -7,7 +7,7 @@ import Body from "./components/Body/Body";
 function App() {
   const HeaderData = {
     photo: personal,
-    name: "Ziad HASSANIN",
+    name: "Ziad Hassanin",
     description:
       "Junior Software Engineer; Doing SRE, Loves anything that scales; SREboy.com",
     contacts: {
