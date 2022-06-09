@@ -50,7 +50,7 @@ function App() {
     },
     projects: {
       1: {
-        name: "SREboy.com/smart-settings (May/2022)",
+        name: "SREboy.com/settings/ (May/2022)",
         tasks: {
           1: "Designed, Implemented and Maintaining the smart_settings package.",
           2: "Helps to manage python programs settings easily, Ability to modify at runTime.",
@@ -58,7 +58,7 @@ function App() {
         },
       },
       2: {
-        name: "SREboy.com/Bastet (Jan/2022)",
+        name: "SREboy.com/Bastet/ (Jan/2022)",
         tasks: {
           1: "Designed, Implemented and Maintaining the Bastet package.",
           2: "Helps to manage FastAPI programs easily, supports reusability and extensibility.",
@@ -69,8 +69,8 @@ function App() {
         name: "Parallelism in Python and Go (April/2022)",
         tasks: {
           1: "In-Depth analysis of Parallelism techniques in Python and Go.",
-          2: "You can find more information at github.com/ZiadMansourM/Parallelism",
-          3: "Also more information @ SREboy.com/talks",
+          2: "github.com/ZiadMansourM/concurrency-parallelism",
+          3: "Also more information at SREboy.com/talks",
         },
       }
     },
@@ -117,13 +117,13 @@ function App() {
         title:
           "(Semester Abroad) Computer Engineering at San José State University (Jan 2022 -> June 2022)",
         description:
-          "Fully Funded by USAID",
+          "GPA: 3.325 - Fully Funded by USAID",
       },
       2: {
         title:
-          "(BSc) Computer Engineering from Cairo University (Aug 2018 -> May 2023)",
+          "(BE) Computer Engineering from Cairo University (Aug 2018 -> May 2023)",
         description:
-          "GPA: 3.27",
+          "GPA: 3.27 - Fully Funded by USAID",
       },
     },
     volunteering: {
