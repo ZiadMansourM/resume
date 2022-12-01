@@ -21,16 +21,15 @@ function App() {
   const BodyData = {
     "work-experience": {
       1: {
-        experience: "Junior Software Engineer",
-        company: "Misr Public Library at Luxor - MPLL",
-        date: "07/2021-08/2021",
-        city: "Luxor, Egypt",
+        experience: "Junior Site Reliability Engineer - Jr. SRE",
+        company: "Silverkey Technologies",
+        date: "07/2022 - till now",
+        city: "Remote",
         action: "Achievements/Tasks",
         actions: {
-          1: " Team Leader, responsible for the deployment and environment configuration.",
-          2: " Designed and implemented the backend, which supported multiple types of users.",
-          3: " Designed and implemented the backend of the blog part of the website.",
-          4: " I ensured every component was extendable and reusable.",
+          1: " Responsible for the deployment and environment configuration.",
+          2: " Automated the cleaning process of the company's private docker registry.",
+          3: " Improved one of the company internal tools which was failing silently.",
         },
       },
       2: {
@@ -41,15 +40,21 @@ function App() {
         action: "Tasks",
         actions: {
           1: "Worked as a DevOps for a whole semester in a team of 21 students.",
-          2: "I ensured everyone understood and applied the values, principles, and methodologies of agile development.",
-          3: "Implemented CI/CD pipelines from day one. Also, helped in managing different environments.",
-          4: "Automated monitoring, rollback and scripts to spin and configure a new server.",
-          5: "Load balancing and Docker containers.",
+          2: "Ensured everyone understood and applied the values, principles, and methodologies of agile development.",
+          3: "Implemented CI/CD pipelines from day one. Helped in managing different environments.",
+          4: "Automated monitoring, rollback and scripts to spin and configure new servers. Besides Load balancing and Docker containers.",
         },
       }
     },
     projects: {
       1: {
+        name: "Docker Private Registry (October/2022)",
+        tasks: {
+          1: " Built a full Docker Private Registry to act as a test environment.",
+          2: " Automated the cleaning process of the company's private docker registry."
+        },
+      },
+      2: {
         name: "SREboy.com/settings/ (May/2022)",
         tasks: {
           1: " Designed, implemented and now maintains the smart_settings package.",
@@ -57,7 +62,7 @@ function App() {
           3: " Technologies used: Python, MkDocs, GitHub Actions, Typer, Rich.",
         },
       },
-      2: {
+      3: {
         name: "SREboy.com/Bastet/ (Jan/2022)",
         tasks: {
           1: "Designed, implemented and now maintains the Bastet package.",
@@ -65,7 +70,7 @@ function App() {
           3: "Technologies used: Python, FastAPI, MkDocs, GitHub Actions, Typer, Rich.",
         },
       },
-      3: {
+      4: {
         name: "Parallelism in Python and Go (April/2022)",
         tasks: {
           1: "In-Depth analysis of parallelism techniques in Python and Go.",
