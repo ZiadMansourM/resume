@@ -41,14 +41,18 @@ function Header(props) {
         )}
         {props.data.contacts.linkedin && (
           <div>
-            {props.data.contacts.linkedin}
-            <img src={linkedin}></img>
+            <a style={{ textDecoration: 'none', color: 'inherit' }} href={`https://www.${props.data.contacts.linkedin}`} target="_blank" rel="noopener noreferrer">
+              {props.data.contacts.linkedin}
+              <img src={linkedin}></img>
+            </a>
           </div>
         )}
         {props.data.contacts.github && (
           <div>
-            {props.data.contacts.github}
-            <img src={github}></img>
+            <a style={{ textDecoration: 'none', color: 'inherit' }} href={`https://www.${props.data.contacts.github}`} target="_blank" rel="noopener noreferrer">
+              {props.data.contacts.github}
+              <img src={github}></img>
+            </a>
           </div>
         )}
       </div>
