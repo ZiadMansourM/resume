@@ -27,55 +27,65 @@ function App() {
         city: "Remote",
         action: "Achievements/Tasks",
         actions: {
-          1: " Responsible for the deployment and environment configuration.",
+          1: " Responsible for the deployment and environment configuration in our Linux test server.",
           2: " Automated the cleaning process of the company's private docker registry.",
           3: " Improved one of the company internal tools which was failing silently.",
-        },
-      },
-      2: {
-        experience: "Junior DevOps",
-        company: "Software Engineering Course - CMPN203",
-        date: "02/2021 - 06/2021",
-        city: "Giza, Egypt",
-        action: "Tasks",
-        actions: {
-          1: "Worked as a DevOps for a whole semester in a team of 21 students.",
-          2: "Ensured everyone understood and applied the values, principles, and methodologies of agile development.",
-          3: "Implemented CI/CD pipelines from day one. Helped in managing different environments.",
-          4: "Automated monitoring, rollback and scripts to spin and configure new servers. Besides Load balancing and Docker containers.",
+          4: " Automated backup of around 800 GB of data from an old to a new windows production server.",
+          5: " Worked with API management solutions: Kong, Apache APISIX, and WSO2.",
         },
       }
     },
     projects: {
       1: {
-        name: "Docker Private Registry (October/2022)",
+        link: "https://docs.scanmate.sreboy.com",
+        name: "Graduation Project: ScanMate (June/2023)",
         tasks: {
-          1: " Built a full Docker Private Registry to act as a test environment.",
-          2: " Automated the cleaning process of the company's private docker registry."
+          1: " Photogrammetry: Close-range 3D reconstruction from 2D images.",
+          2: " Got an A grade after grasping the know-how, mastering classical 3D reconstruction techniques. Over the course of six months.",
+          3: " More information at: docs.scanmate.sreboy.com ^^"
         },
       },
       2: {
-        name: "SREboy.com/settings/ (May/2022)",
+        link: "https://github.com/ZiadMansourM/docker-private-registry",
+        name: "Docker private registry (October/2022)",
         tasks: {
-          1: " Designed, implemented and now maintains the smart_settings package.",
-          2: " Little wrapper around settings files. Helps to manage your python programs' settings easily in a pythonic way.",
-          3: " Technologies used: Python, MkDocs, GitHub Actions, Typer, Rich.",
+          1: " Built a full Docker Private Registry to act as a test environment.",
+          2: " Automated the cleaning process of the company's production private docker registry."
         },
       },
       3: {
-        name: "SREboy.com/Bastet/ (Jan/2022)",
+        link: "https://github.com/ZiadMansourM/Jaeger-ClickHouse",
+        name: "Jaeger with ClickHouse (April/2023)",
         tasks: {
-          1: "Designed, implemented and now maintains the Bastet package.",
-          2: "A high-level Python package encourages rapid development and clean, pragmatic design for FastAPI apps.",
-          3: "Technologies used: Python, FastAPI, MkDocs, GitHub Actions, Typer, Rich.",
+          1: " Configured Jaeger to use ClickHouse as a backend storage.",
+          2: " Good written documentation and dockerized a working example.",
         },
       },
       4: {
+        link: "https://github.com/ZiadMansourM/settings",
+        name: "Smart Settings (May/2022)",
+        tasks: {
+          1: " Designed, implemented, maintains the smart_settings package.",
+          2: " Little wrapper around settings files. Helps to manage your python programs' settings easily in a pythonic way.",
+          3: " Python, MkDocs, GitHub Actions, Typer, Rich.",
+        },
+      },
+      5: {
+        link: "https://github.com/ZiadMansourM/Bastet",
+        name: "SREboy.com/Bastet/ (Jan/2022)",
+        tasks: {
+          1: " Designed, implemented and now maintains the Bastet package.",
+          2: " A high-level Python package encourages rapid development and clean, pragmatic design for FastAPI apps.",
+          3: " Python, FastAPI, MkDocs, GitHub Actions, Typer, Rich.",
+        },
+      },
+      6: {
+        link: "https://github.com/ZiadMansourM/concurrency-parallelism",
         name: "Parallelism in Python and Go (April/2022)",
         tasks: {
-          1: "In-Depth analysis of parallelism techniques in Python and Go.",
-          2: "github.com/ZiadMansourM/concurrency-parallelism",
-          3: "Also more information at SREboy.com/talks",
+          1: " In-Depth analysis of parallelism techniques in Python and Go.",
+          2: " github.com/ZiadMansourM/concurrency-parallelism",
+          3: " Also more information at SREboy.com/talks",
         },
       }
     },

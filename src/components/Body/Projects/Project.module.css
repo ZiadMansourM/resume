@@ -3,3 +3,9 @@
   margin-block-start: 0;
   font-size: 1rem;
 }
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
