@@ -72,7 +72,7 @@ function App() {
       },
       5: {
         link: "https://github.com/ZiadMansourM/Bastet",
-        name: "SREboy.com/Bastet/ (Jan/2022)",
+        name: "Bastet Package (Jan/2022)",
         tasks: {
           1: " Designed, implemented and now maintains the Bastet package.",
           2: " A high-level Python package encourages rapid development and clean, pragmatic design for FastAPI apps.",

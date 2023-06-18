@@ -23,13 +23,17 @@ function Header(props) {
       <div className={classes["header-contacts"]}>
         {props.data.contacts.mail && (
           <div>
+            <a style={{ textDecoration: 'none', color: 'inherit' }} href={`mailto:${props.data.contacts.mail}`} target="_blank" rel="noopener noreferrer">
             {props.data.contacts.mail}
+            </a>
             <img src={email}></img>
           </div>
         )}
         {props.data.contacts.phone && (
           <div>
+            <a style={{ textDecoration: 'none', color: 'inherit' }} href={`https://wa.me/20${props.data.contacts.phone}`} target="_blank" rel="noopener noreferrer">
             {props.data.contacts.phone}
+            </a>
             <img src={phone}></img>
           </div>
         )}
